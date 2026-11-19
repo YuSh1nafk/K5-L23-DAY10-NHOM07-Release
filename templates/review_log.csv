@@ -1,7 +1,7 @@
 image,type,verdict,note
 000000999007,class_swap,confirmed,"mở ảnh: xe tải mui kín, nhãn detection ghi car; panoptic ghi truck đúng"
 000000999009,bbox_drift,rejected,"box lệch mask do vật bị che một phần; nhãn hợp lý"
-
+000000013177,class_swap,confirmed,"Vật thể trong ảnh là xe đạp, nhãn detection ghi nhầm motorcycle"
 000000006471,category_swap,confirmed,"ghế băng dài trong sân bóng chày, detection ghi bench đúng nhưng panoptic ghi thành couch"
 000000015079,instance_merge,confirmed,"trên đĩa có hai nửa bánh sandwich tách rời với hai box detection riêng nhưng panoptic gộp chung thành một segment"
 
