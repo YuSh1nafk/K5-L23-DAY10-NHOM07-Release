@@ -9,4 +9,5 @@ image,type,verdict,note
 
 
 
-000000000872,bbox_drift,confirmed,""
+000000000872,bbox_drift,confirmed,"box thừa 1 tý ở phần mũi chân, nhãn hợp lý"
+000000094721,bbox_drift,confirmed,"box chưa bao phủ toàn bộ person, nhãn hợp lý"
