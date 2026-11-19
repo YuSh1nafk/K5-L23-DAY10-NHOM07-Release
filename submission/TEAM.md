@@ -7,7 +7,7 @@
 |---|---|---|---|
 | Hoàng Duy Vương | 2A202603350 | https://github.com/YuSh1nafk | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
 | Khưu Minh Phú | 2A202603337 | https://github.com/kminhphu | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
-| Hoàng Duy Vương | 2A202603350 | https://github.com/YuSh1nafk | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
+| Nguyễn Huy Thiên Hòa | 2A202604035 | https://github.com/HoaNguyen1903 | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
 | Hoàng Duy Vương | 2A202603350 | https://github.com/YuSh1nafk | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
 | Hoàng Duy Vương | 2A202603350 | https://github.com/YuSh1nafk | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
 | Hoàng Duy Vương | 2A202603350 | https://github.com/YuSh1nafk | <<validator luật / đối chiếu / review / bàn giao / truy vết / bảo mật>> |
