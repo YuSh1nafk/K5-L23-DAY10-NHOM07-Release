@@ -1,3 +1,16 @@
 image,type,verdict,note
 000000999007,class_swap,confirmed,"mở ảnh: xe tải mui kín, nhãn detection ghi car; panoptic ghi truck đúng"
 000000999009,bbox_drift,rejected,"box lệch mask do vật bị che một phần; nhãn hợp lý"
+000000000872,missing_box,rejected,"2 cầu thủ chồng lấn lên nhau, chỉ có box người sau"
+000000013177,class_swap,confirmed,"Vật thể trong ảnh là xe đạp, nhãn detection ghi nhầm motorcycle"
+000000006471,category_swap,confirmed,"ghế băng dài trong sân bóng chày, detection ghi bench đúng nhưng panoptic ghi thành couch"
+000000015079,instance_merge,confirmed,"trên đĩa có hai nửa bánh sandwich tách rời với hai box detection riêng nhưng panoptic gộp chung thành một segment"
+000000000785,missing_box,confirmed,"Người trượt tuyết áo đỏ, hai ván trượt thấy rõ dưới chân, không bị che; panoptic có segment skis nhưng detection không có box skis nào "
+000000023899,instance_merge,confirmed,"Ba người trong phòng; người mờ sát máy bên trái và người tóc sáng ở giữa là hai người khác nhau nhưng panoptic tô chung một segment person, detection có box riêng cho từng người"
+
+
+
+
+
+000000000872,bbox_drift,confirmed,"box thừa 1 tý ở phần mũi chân, nhãn hợp lý"
+000000094721,bbox_drift,confirmed,"box chưa bao phủ toàn bộ person, nhãn hợp lý"
