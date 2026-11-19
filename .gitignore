@@ -8,3 +8,7 @@ __pycache__/
 *.zip
 /hidden
 /delivery
+
+# dữ liệu tải về chạy nhầm thư mục, file IDE
+data_source/
+.idea/
