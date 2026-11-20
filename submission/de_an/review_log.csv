@@ -1,0 +1,14 @@
+image,type,verdict,note
+img_0003,bbox_drift,rejected,Khán đài sân vận động, panoptic gán nhãn cả dãy khán đài là chair còn detection gán ghế đơn lẻ, lệch tự nhiên
+img_0230,missing_box,confirmed,Chiếc ghế dài (bench) rất lớn và rõ ràng trước cửa hàng bị bỏ sót hoàn toàn trong detection
+img_0003,class_swap,rejected,Hàng ghế khán đài (bleachers) trong sân bóng chày, detection gọi là bench còn panoptic gọi là chair, lệch tự nhiên
+img_0138,category_swap,confirmed,Phương tiện trong ảnh là xe buýt chở khách (bus), panoptic gán nhầm thành car, detection đúng bus
+img_0180,class_swap,confirmed,Xe hơi 4 chỗ màu trắng bị detection gán nhầm sang lớp bus, panoptic gán đúng car
+img_0164,class_swap,confirmed,Bánh cupcake trong cốc giấy bị detection gán nhầm thành donut, panoptic gán đúng cake
+img_0192,class_swap,confirmed,Chiếc điện thoại di động (cell phone) ốp lưng màu hồng bị detection gán nhầm thành remote
+img_0235,bbox_drift,confirmed,Box detection của con mèo (cat) bị trôi lệch hẳn xuống dưới, làm hở toàn bộ phần đầu và lưng
+img_0155,instance_merge,confirmed,Hai nửa chiếc bánh sandwich tách rời nhau bị gộp chung vào một mask duy nhất trong panoptic
+img_0123,instance_merge,rejected,Đàn cừu đứng cạnh nhau gây chồng lấn góc nhìn, các cá thể đều có phân vùng riêng, lệch tự nhiên do đàn đông
+img_0108,missing_box,rejected,Chiếc xe hơi bị cột và bụi cây che khuất chia làm hai phần, panoptic tách mảnh tự nhiên không phải lỗi
+img_0107,bbox_drift,confirmed,Box detection của lò nướng (oven) bị trôi lệch sang bên phải, đè sang máy rửa bát và làm hở mép trái của lò
+img_0108,bbox_drift,rejected,Vật bị che khuất chia làm hai mảnh tự nhiên, box detection bao trọn xe nên độ phủ mask không hoàn hảo

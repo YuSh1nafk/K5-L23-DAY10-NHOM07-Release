@@ -1,0 +1,246 @@
+{
+  "candidates": [
+    {
+      "image": "000000001818",
+      "type": "missing_box",
+      "score": 1.5,
+      "pan_class": "zebra",
+      "segment_id": 8092282,
+      "segment_bbox": [
+        0,
+        1,
+        638,
+        425
+      ],
+      "reason": "lớp 'zebra': 2 segment nhưng 1 box; segment 120106 px không có box riêng"
+    },
+    {
+      "image": "000000012748",
+      "type": "missing_box",
+      "score": 1.5,
+      "pan_class": "person",
+      "segment_id": 8946053,
+      "segment_bbox": [
+        217,
+        188,
+        480,
+        633
+      ],
+      "reason": "lớp 'person': 2 segment nhưng 1 box; segment 43320 px không có box riêng"
+    },
+    {
+      "image": "000000000872",
+      "type": "missing_box",
+      "score": 1.131,
+      "pan_class": "person",
+      "segment_id": 8620683,
+      "segment_bbox": [
+        145,
+        101,
+        437,
+        558
+      ],
+      "reason": "lớp 'person': 2 segment nhưng 1 box; segment 25073 px không có box riêng"
+    },
+    {
+      "image": "000000013177",
+      "type": "swap",
+      "score": 0.996,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "motorcycle",
+      "pan_class": "bicycle",
+      "box": [
+        270.0,
+        3.0,
+        381.1,
+        198.6
+      ],
+      "segment_id": 6250585,
+      "segment_bbox": [
+        270,
+        3,
+        381,
+        198
+      ],
+      "reason": "box detection 'motorcycle' trùng segment panoptic 'bicycle' (IoU 1.00)"
+    },
+    {
+      "image": "000000006471",
+      "type": "swap",
+      "score": 0.984,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "bench",
+      "pan_class": "couch",
+      "box": [
+        340.9,
+        97.9,
+        419.5,
+        119.0
+      ],
+      "segment_id": 4869200,
+      "segment_bbox": [
+        341,
+        98,
+        419,
+        119
+      ],
+      "reason": "box detection 'bench' trùng segment panoptic 'couch' (IoU 0.98)"
+    },
+    {
+      "image": "000000015079",
+      "type": "instance_merge",
+      "score": 0.801,
+      "segment_id": 2442325,
+      "pan_class": "sandwich",
+      "segment_bbox": [
+        55,
+        8,
+        477,
+        352
+      ],
+      "boxes": [
+        [
+          55.1,
+          103.5,
+          384.4,
+          352.4
+        ],
+        [
+          203.4,
+          8.3,
+          476.8,
+          223.1
+        ]
+      ],
+      "reason": "lớp 'sandwich': 2 box nhưng 1 segment; segment phủ 2 box (box lớn nhất chứa 70%)"
+    },
+    {
+      "image": "000000000785",
+      "type": "missing_box",
+      "score": 0.641,
+      "pan_class": "skis",
+      "segment_id": 8684420,
+      "segment_bbox": [
+        206,
+        362,
+        615,
+        400
+      ],
+      "reason": "lớp 'skis': 1 segment nhưng 0 box; segment 3828 px không có box riêng"
+    },
+    {
+      "image": "000000023899",
+      "type": "instance_merge",
+      "score": 0.5,
+      "segment_id": 1249810,
+      "pan_class": "person",
+      "segment_bbox": [
+        2,
+        32,
+        612,
+        419
+      ],
+      "boxes": [
+        [
+          1.9,
+          32.5,
+          611.7,
+          419.3
+        ],
+        [
+          214.9,
+          145.2,
+          397.3,
+          345.7
+        ]
+      ],
+      "reason": "lớp 'person': 3 box nhưng 2 segment; segment phủ 2 box (box lớn nhất chứa 100%)"
+    },
+    {
+      "image": "000000023126",
+      "type": "bbox_drift",
+      "score": 0.389,
+      "det_class": "person",
+      "box": [
+        154.2,
+        48.2,
+        270.0,
+        393.0
+      ],
+      "segment_id": 4144959,
+      "segment_bbox": [
+        167,
+        15,
+        279,
+        349
+      ],
+      "reason": "chỉ 94% pixel của segment 'person' nằm trong box (IoU 0.67)"
+    },
+    {
+      "image": "000000002685",
+      "type": "bbox_drift",
+      "score": 0.337,
+      "det_class": "person",
+      "box": [
+        156.0,
+        119.8,
+        308.0,
+        197.6
+      ],
+      "segment_id": 8690334,
+      "segment_bbox": [
+        184,
+        122,
+        316,
+        189
+      ],
+      "reason": "chỉ 99% pixel của segment 'person' nằm trong box (IoU 0.67)"
+    },
+    {
+      "image": "000000000872",
+      "type": "bbox_drift",
+      "score": 0.263,
+      "det_class": "person",
+      "box": [
+        145.3,
+        100.7,
+        437.2,
+        558.0
+      ],
+      "segment_id": 12234672,
+      "segment_bbox": [
+        164,
+        126,
+        429,
+        607
+      ],
+      "reason": "chỉ 96% pixel của segment 'person' nằm trong box (IoU 0.78)"
+    },
+    {
+      "image": "000000012748",
+      "type": "bbox_drift",
+      "score": 0.175,
+      "det_class": "person",
+      "box": [
+        217.2,
+        188.4,
+        480.0,
+        632.8
+      ],
+      "segment_id": 4079972,
+      "segment_bbox": [
+        221,
+        139,
+        480,
+        632
+      ],
+      "reason": "chỉ 94% pixel của segment 'person' nằm trong box (IoU 0.89)"
+    }
+  ]
+}

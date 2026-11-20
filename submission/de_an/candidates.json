@@ -1,0 +1,293 @@
+{
+  "candidates": [
+    {
+      "image": "img_0003",
+      "type": "bbox_drift",
+      "score": 1.997,
+      "det_class": "chair",
+      "box": [
+        234.4,
+        107.4,
+        253.3,
+        115.1
+      ],
+      "segment_id": 14983758,
+      "segment_bbox": [
+        0,
+        2,
+        423,
+        216
+      ],
+      "reason": "chỉ 0% pixel của segment 'chair' nằm trong box (IoU 0.00)"
+    },
+    {
+      "image": "img_0230",
+      "type": "missing_box",
+      "score": 1.5,
+      "pan_class": "bench",
+      "segment_id": 12622140,
+      "segment_bbox": [
+        206,
+        197,
+        616,
+        506
+      ],
+      "reason": "lớp 'bench': 1 segment nhưng 0 box; segment 64149 px không có box riêng"
+    },
+    {
+      "image": "img_0003",
+      "type": "swap",
+      "score": 0.998,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "bench",
+      "pan_class": "chair",
+      "box": [
+        0.0,
+        1.7,
+        423.0,
+        216.1
+      ],
+      "segment_id": 14983758,
+      "segment_bbox": [
+        0,
+        2,
+        423,
+        216
+      ],
+      "reason": "box detection 'bench' trùng segment panoptic 'chair' (IoU 1.00)"
+    },
+    {
+      "image": "img_0138",
+      "type": "swap",
+      "score": 0.998,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "bus",
+      "pan_class": "car",
+      "box": [
+        14.2,
+        4.7,
+        424.1,
+        552.6
+      ],
+      "segment_id": 8505406,
+      "segment_bbox": [
+        14,
+        5,
+        424,
+        553
+      ],
+      "reason": "box detection 'bus' trùng segment panoptic 'car' (IoU 1.00)"
+    },
+    {
+      "image": "img_0180",
+      "type": "swap",
+      "score": 0.993,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "bus",
+      "pan_class": "car",
+      "box": [
+        97.7,
+        161.9,
+        299.3,
+        327.5
+      ],
+      "segment_id": 12020283,
+      "segment_bbox": [
+        98,
+        162,
+        299,
+        327
+      ],
+      "reason": "box detection 'bus' trùng segment panoptic 'car' (IoU 0.99)"
+    },
+    {
+      "image": "img_0164",
+      "type": "swap",
+      "score": 0.991,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "donut",
+      "pan_class": "cake",
+      "box": [
+        17.8,
+        86.1,
+        424.8,
+        455.7
+      ],
+      "segment_id": 1479487,
+      "segment_bbox": [
+        18,
+        86,
+        422,
+        455
+      ],
+      "reason": "box detection 'donut' trùng segment panoptic 'cake' (IoU 0.99)"
+    },
+    {
+      "image": "img_0192",
+      "type": "swap",
+      "score": 0.98,
+      "options": [
+        "class_swap",
+        "category_swap"
+      ],
+      "det_class": "remote",
+      "pan_class": "cell phone",
+      "box": [
+        73.0,
+        470.4,
+        166.1,
+        527.6
+      ],
+      "segment_id": 15601992,
+      "segment_bbox": [
+        73,
+        470,
+        166,
+        527
+      ],
+      "reason": "box detection 'remote' trùng segment panoptic 'cell phone' (IoU 0.98)"
+    },
+    {
+      "image": "img_0235",
+      "type": "bbox_drift",
+      "score": 0.93,
+      "det_class": "cat",
+      "box": [
+        181.6,
+        389.7,
+        292.6,
+        530.3
+      ],
+      "segment_id": 10465003,
+      "segment_bbox": [
+        162,
+        336,
+        302,
+        512
+      ],
+      "reason": "chỉ 56% pixel của segment 'cat' nằm trong box (IoU 0.51)"
+    },
+    {
+      "image": "img_0155",
+      "type": "instance_merge",
+      "score": 0.83,
+      "segment_id": 582429,
+      "pan_class": "sandwich",
+      "segment_bbox": [
+        113,
+        161,
+        420,
+        353
+      ],
+      "boxes": [
+        [
+          228.6,
+          160.5,
+          419.8,
+          345.3
+        ],
+        [
+          112.8,
+          166.6,
+          313.2,
+          353.3
+        ]
+      ],
+      "reason": "lớp 'sandwich': 2 box nhưng 1 segment; segment phủ 2 box (box lớn nhất chứa 67%)"
+    },
+    {
+      "image": "img_0123",
+      "type": "instance_merge",
+      "score": 0.631,
+      "segment_id": 15065616,
+      "pan_class": "sheep",
+      "segment_bbox": [
+        342,
+        189,
+        532,
+        310
+      ],
+      "boxes": [
+        [
+          399.9,
+          188.4,
+          531.9,
+          310.3
+        ],
+        [
+          342.5,
+          200.5,
+          421.7,
+          241.4
+        ]
+      ],
+      "reason": "lớp 'sheep': 12 box nhưng 11 segment; segment phủ 2 box (box lớn nhất chứa 87%)"
+    },
+    {
+      "image": "img_0108",
+      "type": "missing_box",
+      "score": 0.546,
+      "pan_class": "car",
+      "segment_id": 2651720,
+      "segment_bbox": [
+        274,
+        448,
+        418,
+        499
+      ],
+      "reason": "lớp 'car': 2 segment nhưng 1 box; segment 1257 px không có box riêng"
+    },
+    {
+      "image": "img_0107",
+      "type": "bbox_drift",
+      "score": 0.431,
+      "det_class": "oven",
+      "box": [
+        239.0,
+        257.1,
+        353.9,
+        425.0
+      ],
+      "segment_id": 10849620,
+      "segment_bbox": [
+        222,
+        257,
+        337,
+        425
+      ],
+      "reason": "chỉ 83% pixel của segment 'oven' nằm trong box (IoU 0.74)"
+    },
+    {
+      "image": "img_0108",
+      "type": "bbox_drift",
+      "score": 0.382,
+      "det_class": "car",
+      "box": [
+        274.0,
+        447.5,
+        423.4,
+        498.5
+      ],
+      "segment_id": 12327730,
+      "segment_bbox": [
+        311,
+        446,
+        427,
+        500
+      ],
+      "reason": "chỉ 91% pixel của segment 'car' nằm trong box (IoU 0.70)"
+    }
+  ]
+}
